@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".DomainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardWeb"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Frontend" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardAnd"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/cardWeb"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Backend" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardIOS"
+        android:layout_marginBottom="20dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/cardWeb"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Devops" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardML"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/cardAnd"
+        android:layout_toRightOf="@+id/cardIOS"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Bloackchain" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardBlock"
+        android:layout_marginBottom="20dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/cardIOS"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="22dp"
+            android:text="Flutter" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:id="@+id/cardData"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/cardIOS"
+        android:layout_toRightOf="@+id/cardBlock"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/purple_200">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="Android" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardData"
+        android:layout_marginLeft="100dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Call Us" />
+
+</RelativeLayout>
