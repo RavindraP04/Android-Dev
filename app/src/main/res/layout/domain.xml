@@ -152,10 +152,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cardData"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="10dp"
         android:gravity="center_vertical"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:text="Call Us" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardBlock"
+        android:layout_toRightOf="@+id/cardBlock"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Request" />
 
 </RelativeLayout>

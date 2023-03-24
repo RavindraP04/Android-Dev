@@ -19,11 +19,17 @@ class DomainActivity : AppCompatActivity() {
         val blockChain = findViewById<CardView>(R.id.cardML)
         val flutter = findViewById<CardView>(R.id.cardBlock)
         val android = findViewById<CardView>(R.id.cardData)
+        val request = findViewById<Button>(R.id.button3)
 
+
+        request.setOnClickListener {
+            intent = Intent(this, Message::class.java)
+            startActivity(intent)
+        }
 
         callButton.setOnClickListener {
             val intent = Intent(Intent.ACTION_DIAL)
-            intent.data = Uri.parse("tel:"+"9303321532")
+            intent.data = Uri.parse("tel:"+"+919300000000")
             startActivity(intent)
         }
 
